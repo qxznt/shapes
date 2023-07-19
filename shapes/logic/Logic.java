@@ -6,7 +6,7 @@ import mooc.vandy.java4android.shapes.ui.OutputInterface;
 
 import static java.lang.String.format;
 
-/
+
 public class Logic
         implements LogicInterface {
 
@@ -110,7 +110,6 @@ public class Logic
         }
     }
 
-    // TODO -- add your code here
 
     private double boxVolume(double length, double width, double height) {
         return length * width * height;
